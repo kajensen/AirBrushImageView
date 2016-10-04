@@ -12,6 +12,7 @@
 		90E48D7F1DA4099D00EA10D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E48D7D1DA4099D00EA10D7 /* Main.storyboard */; };
 		90E48D811DA4099D00EA10D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E48D801DA4099D00EA10D7 /* Assets.xcassets */; };
 		90E48D841DA4099D00EA10D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E48D821DA4099D00EA10D7 /* LaunchScreen.storyboard */; };
+		90E48D8C1DA409BC00EA10D7 /* AirBrushImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E48D8B1DA409BC00EA10D7 /* AirBrushImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		90E48D801DA4099D00EA10D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90E48D831DA4099D00EA10D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90E48D851DA4099D00EA10D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E48D8B1DA409BC00EA10D7 /* AirBrushImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AirBrushImageView.swift; path = Source/AirBrushImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		90E48D6D1DA4099D00EA10D7 = {
 			isa = PBXGroup;
 			children = (
+				90E48D8B1DA409BC00EA10D7 /* AirBrushImageView.swift */,
 				90E48D781DA4099D00EA10D7 /* AirBrushImageView */,
 				90E48D771DA4099D00EA10D7 /* Products */,
 			);
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					90E48D751DA4099D00EA10D7 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JSQ8N76B4C;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90E48D8C1DA409BC00EA10D7 /* AirBrushImageView.swift in Sources */,
 				90E48D7C1DA4099D00EA10D7 /* ViewController.swift in Sources */,
 				90E48D7A1DA4099D00EA10D7 /* AppDelegate.swift in Sources */,
 			);
@@ -258,7 +263,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JSQ8N76B4C;
 				INFOPLIST_FILE = AirBrushImageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.arborapps.AirBrushImageView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,7 +277,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JSQ8N76B4C;
 				INFOPLIST_FILE = AirBrushImageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.arborapps.AirBrushImageView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
